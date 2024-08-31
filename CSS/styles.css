@@ -439,3 +439,22 @@ a {
     font-size: 1.6rem;
   }
 }
+
+/* Grids */
+
+.grid {
+  display: grid;
+}
+
+/* #r#c - r and c stand for rows and columns, so: 1r2c = 1 row 2 columns */
+@media screen and (min-width: 768px) {
+  .grid--1r2c {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .grid--1r3c {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
