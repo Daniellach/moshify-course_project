@@ -1,4 +1,17 @@
 <svg width="0" height="0" class="hidden">
+  <symbol xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 51 51" id="chevron">
+    <defs></defs>
+    <g>
+      <g id="Capa_1">
+        <g id="Layer_1">
+          <g>
+            <path d="M40,15.5h0c.6.4.7,1.3.2,1.8l-13.6,17.9c-.4.6-1.3.7-1.8.2h0c-.6-.4-.7-1.3-.2-1.8l13.6-17.9c.4-.6,1.3-.7,1.8-.2Z"></path>
+            <path d="M12.8,15.7l13.6,17.9c.4.6.3,1.4-.2,1.8h0c-.6.4-1.4.3-1.8-.2l-13.6-17.9c-.4-.6-.3-1.4.2-1.8h0c.6-.4,1.4-.3,1.8.2Z"></path>
+          </g>
+        </g>
+      </g>
+    </g>
+  </symbol>
   <symbol version="1.1" id="clock" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" xml:space="preserve" viewBox="0 0 501.656 501.656">
     <g>
       <g>
@@ -90,9 +103,6 @@
       </g>
     </g>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 2" id="line">
-    <path fill="#63c3ef" d="M0 0h50v2H0z"></path>
-  </symbol>
   <symbol id="menu" enable-background="new 0 0 24 24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
     <g>
       <path d="m21.5 24h-19c-1.379 0-2.5-1.122-2.5-2.5v-19c0-1.378 1.121-2.5 2.5-2.5h19c1.379 0 2.5 1.122 2.5 2.5v19c0 1.378-1.121 2.5-2.5 2.5zm-19-23c-.827 0-1.5.673-1.5 1.5v19c0 .827.673 1.5 1.5 1.5h19c.827 0 1.5-.673 1.5-1.5v-19c0-.827-.673-1.5-1.5-1.5z"></path>
@@ -106,6 +116,9 @@
     <g>
       <path d="m16.5 17h-9c-.276 0-.5-.224-.5-.5s.224-.5.5-.5h9c.276 0 .5.224.5.5s-.224.5-.5.5z"></path>
     </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 2" id="line">
+    <path fill="#63c3ef" d="M0 0h50v2H0z"></path>
   </symbol>
   <symbol version="1.1" id="quotes" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" xml:space="preserve" viewBox="0 0 508.044 508.044">
     <g>
@@ -214,11 +227,9 @@
     <g></g>
     <g></g>
   </symbol>
-  <symbol id="chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 51 51">
+  <symbol id="search" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21.8 23.8">
     <defs></defs>
-    <circle cx="25.5" cy="25.5" r="25.5"></circle>
-    <rect x="24.4" y="27.9" width="1.6" height="15.24" rx="0.8" transform="matrix(0.78, -0.63, 0.63, 0.78, -21.26, 15.39)"></rect>
-    <rect x="33.3" y="27.9" width="1.6" height="15.24" rx="0.8" transform="translate(24 -21.9) rotate(37.3)"></rect>
+    <path d="M11,17.9a8.7,8.7,0,0,0,.8,4.8,1,1,0,0,0,1.2.4.8.8,0,0,0,.4-1.2,8.3,8.3,0,0,1-.7-3.8,7.6,7.6,0,0,1,15.2,1.1A7.7,7.7,0,0,1,16.1,25a.8.8,0,0,0-1.2.2.9.9,0,0,0,.2,1.3A10,10,0,0,0,19.6,28a9.3,9.3,0,0,0,6.1-1.7l5.5,6.4a.9.9,0,0,0,.6.3.7.7,0,0,0,.7-.2.9.9,0,0,0,.1-1.2L27,25.2a8.9,8.9,0,0,0,2.6-5.8A9.3,9.3,0,1,0,11,17.9Z" transform="translate(-10.9 -9.3)"></path>
   </symbol>
   <symbol version="1.1" id="settings" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" xml:space="preserve" viewBox="0 0 485.656 485.656">
     <g>
