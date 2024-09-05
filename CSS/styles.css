@@ -182,7 +182,7 @@ a {
 
 .icon--small {
   width: 30px;
-  height: 30pxs;
+  height: 30px;
 }
 
 .icon--primary {
@@ -217,7 +217,7 @@ a {
   font-weight: 600;
   margin: 1rem 0;
   outline: 0;
-  padding: 2rem 3rem;
+  padding: 2rem 4vw;
   text-align: center;
   text-transform: uppercase;
   white-space: nowrap;
@@ -328,6 +328,7 @@ a {
   border-radius: 7px;
   box-shadow: 0 0 20px 10px #f3f3f3;
   overflow: hidden;
+  margin: 4rem;
 }
 
 .card__header,
@@ -626,7 +627,7 @@ a {
 /* Blocks */
 
 .block {
-  --padding-vertical: 6rem;
+  --padding-vertical: 4rem;
   padding: var(--padding-vertical) 2rem;
 }
 
@@ -663,7 +664,7 @@ a {
 /* Navigation bar */
 
 .nav {
-  background: #121212;
+  background: black;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -759,14 +760,15 @@ a {
 }
 
 .block-domain__prices {
+  color: var(--color-headings);
   display: grid;
   font-size: 2rem;
   font-weight: 700;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 6rem);
   justify-items: center;
-  max-width: 700px;
   margin: 0 auto;
+  max-width: 700px;
 }
 
 @media screen and (min-width: 768px) {
@@ -906,4 +908,10 @@ a {
   .footer__heading {
     font-size: 1.6rem;
   }
+}
+
+/* Sign-up Callout */
+
+.callout-signup {
+  transform: translateY(8rem);
 }
